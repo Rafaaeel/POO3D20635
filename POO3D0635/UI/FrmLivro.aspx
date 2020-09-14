@@ -11,9 +11,10 @@
 <body>
     <form id="form1" runat="server">
         <div class="jumbotron">
-           
+           <asp:Label ID="lbldupla" runat="server" ForeColor="Red" Text="Dupla: Arthur Sena e Rafael Batista" Visible="true"></asp:Label>
            <h1 class="h3 mb-3 font-weight-normal">Crud de livros</h1>
-
+            
+             
              <asp:Label ID="msgerro" runat="server" ForeColor="Red" Text="." Visible="false"></asp:Label>
               <br />
              <asp:Label ID="lblTitulo" runat="server" Text="Titulo "></asp:Label>
